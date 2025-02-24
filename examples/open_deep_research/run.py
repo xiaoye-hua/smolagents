@@ -98,7 +98,7 @@ def main():
     browser = SimpleTextBrowser(**BROWSER_CONFIG)
 
     WEB_TOOLS = [
-        GoogleSearchTool(provider="serper"),
+        GoogleSearchTool(),
         VisitTool(browser),
         PageUpTool(browser),
         PageDownTool(browser),
