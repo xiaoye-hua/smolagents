@@ -13,7 +13,12 @@ pip install -r requirements.txt
 
 And install smolagents dev version
 ```bash
-pip install smolagents[dev]
+pip install "smolagents[dev]"
+```
+
+add your huggingface token to the .env file
+```bash
+HF_TOKEN=your_huggingface_token_here
 ```
 
 Then you're good to go! Run the run.py script, as in:
