@@ -14,6 +14,7 @@ from scripts.text_web_browser import (
     SimpleTextBrowser,
     VisitTool,
 )
+from smolagents import GradioUI
 from scripts.visual_qa import visualizer
 
 from smolagents import (
@@ -143,10 +144,11 @@ def main():
         planning_interval=4,
         managed_agents=[text_webbrowser_agent],
     )
+    ui = GradioUI(manager_agent)
+    ui.launch()
+    # answer = manager_agent.run(args.question)
 
-    answer = manager_agent.run(args.question)
-
-    print(f"Got this answer: {answer}")
+    # print(f"Got this answer: {answer}")
 
 
 if __name__ == "__main__":

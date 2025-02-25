@@ -42,6 +42,11 @@ The goal is to help you maintain a big picture as well as the progress of the ta
 - When handling large datasets, use appropriate data structures and batch processing to improve performance
 - When creating a Flask application with WebSockets, use eventlet as the async mode for better compatibility
 - On macOS, port 5000 is often used by AirPlay Receiver, so use a different port (e.g., 5001) for Flask applications
+- When displaying AI agent outputs, categorize different message types (steps, code, execution, etc.) for better visualization
+- When creating web interfaces for AI applications, Gradio provides a simpler and more consistent experience than Flask for rapid prototyping
+- When using Gradio's Timer component, use the component.update(function, every=seconds) syntax instead of gr.Timer(interval=seconds)
+- When capturing output from AI agents in Gradio, use both print function overriding and sys.stdout.write patching to ensure all outputs are captured
+- For real-time updates in Gradio, use a hidden button with JavaScript to trigger periodic refreshes rather than relying on Gradio's built-in Timer
 
 # Scratchpad
 
@@ -65,6 +70,10 @@ The goal is to help you maintain a big picture as well as the progress of the ta
 [X] Create run.sh script for easy startup
 [X] Make run.sh executable
 [X] Test the application
+[X] Enhance message display to show detailed step information
+[X] Create Gradio-based implementation to match Hugging Face Space
+[X] Fix Gradio implementation issues
+[X] Improve Gradio app to show all information during the research process
 
 ### Progress:
 - Created Flask application with WebSocket support
@@ -76,6 +85,25 @@ The goal is to help you maintain a big picture as well as the progress of the ta
 - Fixed issues with eventlet compatibility by using threading mode
 - Changed port from 5000 to 5001 to avoid conflicts with AirPlay Receiver on macOS
 - Successfully tested the application
+- Enhanced message display to show detailed step information, tool usage, and execution logs
+- Added CSS styling for different message types for better visualization
+- Created a Gradio-based implementation to match the Hugging Face Space behavior
+- Implemented markdown formatting for different message types in Gradio
+- Fixed issues with the Gradio Timer component by using the component.update() method
+- Fixed browser configuration and tool initialization in the Gradio implementation
+- Properly configured the model dropdown to avoid warnings
+- Enhanced the Gradio app to show all information during the research process by:
+  - Improving the output capture mechanism to catch all agent outputs
+  - Adding more message type categorization for better formatting
+  - Patching both print and sys.stdout.write to ensure all outputs are captured
+  - Adding a manual refresh button for users to update the output display
+  - Using JavaScript to automatically refresh the output every second
 
 ### Completed Task:
-The frontend for the Open Deep Research application has been successfully created and tested. The application provides a user-friendly interface for submitting research questions, displays real-time updates of the research process, and supports multiple language models. The frontend integrates with the existing backend (run.py) to perform web research using SmolaGents.
+The frontend for the Open Deep Research application has been successfully created and tested. We've implemented two versions:
+1. A Flask-based version with WebSocket support for real-time updates
+2. A Gradio-based version that matches the behavior of the Hugging Face Space
+
+Both implementations provide a user-friendly interface for submitting research questions, display real-time updates of the research process with detailed step information, and support multiple language models. The frontends integrate with the existing backend (run.py) to perform web research using SmolaGents.
+
+The Gradio implementation has been enhanced to show all information during the research process, including step headers, thought processes, code blocks, execution outputs, tool calls, and the final answer. This provides users with a comprehensive view of the research process and helps them understand how the AI arrived at its conclusions.
