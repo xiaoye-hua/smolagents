@@ -83,16 +83,23 @@ BROWSER_CONFIG = {
 os.makedirs(f"./{BROWSER_CONFIG['downloads_folder']}", exist_ok=True)
 
 
+def get_model(model_id):
+    """Get a model instance based on model_id."""
+    from smolagents.models import LiteLLMModel
+    
+    # For o3-min specifically, use the full provider/model format
+    if model_id == "o3-min":
+        return LiteLLMModel(model_id="openai/gpt-4o-mini")
+    
+    # For other models, use the original model_id
+    return LiteLLMModel(model_id=model_id)
+
+
 def main():
     args = parse_args()
     text_limit = 100000
 
-    model = LiteLLMModel(
-        args.model_id,
-        custom_role_conversions=custom_role_conversions,
-        max_completion_tokens=8192,
-        reasoning_effort="high",
-    )
+    model = get_model(args.model_id)
     document_inspection_tool = TextInspectorTool(model, text_limit)
 
     browser = SimpleTextBrowser(**BROWSER_CONFIG)
