@@ -60,9 +60,9 @@ append_answer_lock = threading.Lock()
 
 def parse_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument(
-        "question", type=str, help="for example: 'How many studio albums did Mercedes Sosa release before 2007?'"
-    )
+    # parser.add_argument(
+    #     "question", type=str, help="for example: 'How many studio albums did Mercedes Sosa release before 2007?'"
+    # )
     parser.add_argument("--model-id", type=str, default="o3-min")
     return parser.parse_args()
 
@@ -138,7 +138,7 @@ def main():
     manager_agent = CodeAgent(
         model=model,
         tools=[visualizer, document_inspection_tool],
-        max_steps=12,
+        max_steps=40,
         verbosity_level=2,
         additional_authorized_imports=AUTHORIZED_IMPORTS,
         planning_interval=4,
