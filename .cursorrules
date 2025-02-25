@@ -1,0 +1,81 @@
+# Instructions
+
+During you interaction with the user, if you find anything reusable in this project (e.g. version of a library, model name), especially about a fix to a mistake you made or a correction you received, you should take note in the `Lessons` section in the `.cursorrules` file so you will not make the same mistake again. 
+
+You should also use the `.cursorrules` file as a scratchpad to organize your thoughts. Especially when you receive a new task, you should first review the content of the scratchpad, clear old different task if necessary, first explain the task, and plan the steps you need to take to complete the task. You can use todo markers to indicate the progress, e.g.
+[X] Task 1
+[ ] Task 2
+Also update the progress of the task in the Scratchpad when you finish a subtask.
+Also record failed attempts in the scratchpad so that you can refer to them when you try again.
+Especially when you finished a milestone, it will help to improve your depth of task accomplishment to use the scratchpad to reflect and plan.
+The goal is to help you maintain a big picture as well as the progress of the task. Always refer to the Scratchpad when you plan the next step.
+
+# Lessons
+
+## User Specified Lessons
+
+- Python environment is configured by Poetry, so run `poetry run python` to start the python interpreter and run `poetry install` to install the dependencies.
+- Include info useful for debugging in the program output.
+- Read the file before you try to edit it.
+- When installing new packages, use `poetry add <package>` directly instead of manually editing pyproject.toml or poetry.lock files.
+- Every time you create a new script, you should first write the script description at the top of the script.
+
+## Cursor learned
+
+- For website image paths, always use the correct relative path (e.g., 'images/filename.png') and ensure the images directory exists
+- Add debug information to stderr while keeping the main output clean in stdout for better pipeline integration
+- When using seaborn styles in matplotlib, use 'seaborn-v0_8' instead of 'seaborn' as the style name due to recent seaborn version changes
+- When scraping modern web apps, Playwright is often more reliable than Selenium for handling dynamic content and Angular/React apps
+- When scraping React-based tables, look for role-based selectors (e.g., role="table", role="row", role="cell") instead of traditional HTML selectors
+- When scraping tables, always inspect the actual HTML structure to determine correct cell indices, as visual column order may not match the DOM structure
+- When dealing with toggle buttons, verify the actual state/effect of the button rather than assuming the button text matches its action
+- When scraping pattern/tag data, check for and handle placeholder values (e.g., "***") that should be filtered out
+- When dealing with dropdown menus in modern web apps, try multiple selector strategies (text content, role, class names) as the actual implementation may vary
+- When scraping dynamic content, add appropriate waits between actions to allow for animations and content loading
+- When scraping problem lists, avoid clicking individual problem links if only the list data is needed
+- When dealing with dynamic web apps, using JavaScript directly through page.evaluate() can be more reliable than Playwright's built-in selectors
+- When scraping large lists, scroll elements into view before interacting with them to ensure they're accessible
+- When writing web scraping scripts, make them general and reusable by parameterizing the target (e.g., which tab to scrape)
+- When scraping websites that require authentication, try using their public API (e.g., GraphQL) first as it might not require authentication
+- When dealing with rate limits or authentication issues, using official APIs is often more reliable than web scraping
+- When formatting percentages, use consistent decimal places (e.g., "%.1f%%" for one decimal place)
+- When handling large datasets, use appropriate data structures and batch processing to improve performance
+- When creating a Flask application with WebSockets, use eventlet as the async mode for better compatibility
+- On macOS, port 5000 is often used by AirPlay Receiver, so use a different port (e.g., 5001) for Flask applications
+
+# Scratchpad
+
+## Current Task: Create Frontend for Open Deep Research Application
+
+### Requirements:
+- Create a web-based frontend for the Open Deep Research application
+- Integrate with the existing backend (run.py)
+- Provide a user-friendly interface for submitting research questions
+- Display real-time updates of the research process
+- Support multiple language models
+
+### Plan:
+[X] Create directory structure for Flask application
+[X] Create main Flask application (app.py)
+[X] Create HTML template (index.html)
+[X] Create CSS styles (style.css)
+[X] Create JavaScript for frontend functionality (main.js)
+[X] Create requirements.txt for dependencies
+[X] Create README.md for documentation
+[X] Create run.sh script for easy startup
+[X] Make run.sh executable
+[X] Test the application
+
+### Progress:
+- Created Flask application with WebSocket support
+- Created responsive UI with sidebar and main content area
+- Implemented real-time updates using Socket.IO
+- Added support for multiple language models
+- Added research history tracking with localStorage
+- Added proper error handling and progress tracking
+- Fixed issues with eventlet compatibility by using threading mode
+- Changed port from 5000 to 5001 to avoid conflicts with AirPlay Receiver on macOS
+- Successfully tested the application
+
+### Completed Task:
+The frontend for the Open Deep Research application has been successfully created and tested. The application provides a user-friendly interface for submitting research questions, displays real-time updates of the research process, and supports multiple language models. The frontend integrates with the existing backend (run.py) to perform web research using SmolaGents.
