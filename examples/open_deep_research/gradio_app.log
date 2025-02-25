@@ -1,0 +1,533 @@
+2025-02-25 09:23:45,392 - huggingface_hub._login - WARNING - Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.
+2025-02-25 09:23:45,393 - __main__ - INFO - Starting Gradio app
+2025-02-25 09:23:45,393 - __main__ - INFO - Creating Gradio UI
+2025-02-25 09:23:46,205 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-02-25 09:24:09,788 - huggingface_hub._login - WARNING - Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.
+2025-02-25 09:24:09,789 - __main__ - INFO - Starting Gradio app
+2025-02-25 09:24:09,789 - __main__ - INFO - Creating Gradio UI
+2025-02-25 09:24:10,534 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-02-25 09:25:35,432 - huggingface_hub._login - WARNING - Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.
+2025-02-25 09:25:35,434 - __main__ - INFO - Starting Gradio app
+2025-02-25 09:25:35,434 - __main__ - INFO - Creating Gradio UI
+2025-02-25 09:25:35,683 - httpx - INFO - HTTP Request: GET http://localhost:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-02-25 09:25:35,697 - httpx - INFO - HTTP Request: HEAD http://localhost:7860/ "HTTP/1.1 200 OK"
+2025-02-25 09:25:36,203 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-02-25 09:26:05,020 - __main__ - INFO - Starting research on: What were the economic impacts of the 1929 stock market crash? with model: o3-min
+2025-02-25 09:26:05,021 - __main__ - INFO - Getting model: o3-min
+2025-02-25 09:26:05,026 - __main__ - INFO - Creating browser
+2025-02-25 09:26:05,027 - __main__ - INFO - Creating tools
+2025-02-25 09:26:05,030 - __main__ - INFO - [info] Starting research on: What were the economic impacts of the 1929 stock market crash?...
+2025-02-25 09:26:05,031 - __main__ - INFO - [info] Using model: o3-min...
+2025-02-25 09:26:05,032 - __main__ - INFO - [info] Initializing web browser agent......
+2025-02-25 09:26:05,032 - __main__ - INFO - Creating web browser agent
+2025-02-25 09:26:05,052 - __main__ - INFO - [info] Initializing manager agent......
+2025-02-25 09:26:05,052 - __main__ - INFO - Creating manager agent
+2025-02-25 09:26:05,068 - __main__ - INFO - [info] Starting research process......
+2025-02-25 09:26:05,068 - __main__ - INFO - Running research
+2025-02-25 09:26:05,726 - httpx - INFO - HTTP Request: GET https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json "HTTP/1.1 200 OK"
+2025-02-25 09:26:06,408 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-02-25 09:26:09,500 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 09:26:09,520 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-02-25 09:26:09,528 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-02-25 09:26:13,666 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 09:26:13,667 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-02-25 09:26:13,672 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-02-25 09:26:16,307 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 09:26:16,309 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-02-25 09:26:16,370 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-02-25 09:26:18,580 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 09:26:18,585 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-02-25 09:26:18,597 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-02-25 09:26:21,873 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 09:26:21,875 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-02-25 09:26:21,888 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-02-25 09:26:24,522 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 09:26:24,526 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-02-25 09:26:24,537 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-02-25 09:26:27,065 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 09:26:27,070 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-02-25 09:26:27,078 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-02-25 09:26:31,553 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 09:26:31,558 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-02-25 09:26:31,565 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-02-25 09:26:34,713 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 09:26:34,718 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-02-25 09:26:34,734 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-02-25 09:26:40,609 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 09:26:40,623 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-02-25 09:26:40,639 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-02-25 09:26:45,985 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 09:26:45,988 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-02-25 09:26:46,007 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-02-25 09:26:50,664 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 09:26:50,667 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-02-25 09:26:50,686 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-02-25 09:26:55,967 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 09:26:55,982 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-02-25 09:26:55,990 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-02-25 09:27:00,746 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 09:27:00,751 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-02-25 09:27:00,760 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-02-25 09:27:06,420 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 09:27:06,429 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-02-25 09:27:06,448 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-02-25 09:27:16,229 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 09:27:16,235 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-02-25 09:27:16,260 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-02-25 09:27:20,464 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 09:27:20,473 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-02-25 09:27:20,500 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-02-25 09:27:25,083 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 09:27:25,107 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-02-25 09:27:25,117 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-02-25 09:27:29,592 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 09:27:29,600 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-02-25 09:27:29,603 - __main__ - INFO - [success] Research completed!...
+2025-02-25 09:27:29,603 - __main__ - INFO - Research completed
+2025-02-25 09:27:29,603 - __main__ - INFO - [final_answer] Final answer: The economic impacts of the 1929 stock market crash were profound and far-reaching, co...
+2025-02-25 09:27:29,603 - __main__ - INFO - Research process finished
+2025-02-25 17:11:39,047 - huggingface_hub._login - WARNING - Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.
+2025-02-25 17:11:39,048 - __main__ - INFO - Starting Gradio app
+2025-02-25 17:11:39,048 - __main__ - INFO - Creating Gradio UI
+2025-02-25 17:11:39,272 - httpx - INFO - HTTP Request: GET http://localhost:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-02-25 17:11:39,286 - httpx - INFO - HTTP Request: HEAD http://localhost:7860/ "HTTP/1.1 200 OK"
+2025-02-25 17:11:39,780 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-02-25 17:12:09,226 - __main__ - INFO - Starting research on: What were the economic impacts of the 1929 stock market crash? with model: openai/gpt-4o
+2025-02-25 17:12:09,226 - __main__ - INFO - Getting model: openai/gpt-4o
+2025-02-25 17:12:09,227 - __main__ - INFO - Creating browser
+2025-02-25 17:12:09,228 - __main__ - INFO - Creating tools
+2025-02-25 17:12:09,230 - __main__ - INFO - [info] Starting research on: What were the economic impacts of the 1929 stock market crash?...
+2025-02-25 17:12:09,230 - __main__ - INFO - [info] Using model: openai/gpt-4o...
+2025-02-25 17:12:09,230 - __main__ - INFO - [info] Initializing web browser agent......
+2025-02-25 17:12:09,230 - __main__ - INFO - Creating web browser agent
+2025-02-25 17:12:09,254 - __main__ - INFO - [info] Initializing manager agent......
+2025-02-25 17:12:09,255 - __main__ - INFO - Creating manager agent
+2025-02-25 17:12:09,271 - __main__ - INFO - [info] Starting research process......
+2025-02-25 17:12:09,272 - __main__ - INFO - Running research
+2025-02-25 17:12:09,902 - httpx - INFO - HTTP Request: GET https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json "HTTP/1.1 200 OK"
+2025-02-25 17:12:10,558 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-02-25 17:12:18,436 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 17:12:18,461 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-02-25 17:12:18,469 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-02-25 17:12:22,447 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 17:12:22,456 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-02-25 17:12:22,470 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-02-25 17:12:24,796 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 17:12:24,801 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-02-25 17:12:24,872 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-02-25 17:12:30,438 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 17:12:30,456 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-02-25 17:12:30,458 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-02-25 17:12:35,752 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 17:12:35,754 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-02-25 17:12:35,758 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-02-25 17:12:36,933 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 17:12:36,938 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-02-25 17:12:39,266 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-02-25 17:12:41,024 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 17:12:41,026 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-02-25 17:12:41,925 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-02-25 17:12:43,066 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 17:12:43,074 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-02-25 17:12:43,092 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-02-25 17:12:44,047 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 17:12:44,050 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-02-25 17:12:44,073 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-02-25 17:12:52,760 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 17:12:52,765 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-02-25 17:12:52,775 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-02-25 17:12:54,886 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 17:12:54,890 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-02-25 17:12:54,898 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-02-25 17:12:55,977 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 17:12:55,995 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-02-25 17:12:56,015 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-02-25 17:13:01,505 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 17:13:01,513 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-02-25 17:13:01,533 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-02-25 17:13:08,622 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 17:13:08,626 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-02-25 17:13:08,656 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-02-25 17:13:16,025 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 17:13:16,039 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-02-25 17:13:16,061 - __main__ - INFO - [success] Research completed!...
+2025-02-25 17:13:16,061 - __main__ - INFO - Research completed
+2025-02-25 17:13:16,061 - __main__ - INFO - [final_answer] Final answer: 
+The information gathered about the economic impacts of the 1929 stock market crash pr...
+2025-02-25 17:13:16,061 - __main__ - INFO - Research process finished
+2025-02-25 17:14:16,238 - huggingface_hub._login - WARNING - Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.
+2025-02-25 17:14:16,239 - __main__ - INFO - Starting Gradio app
+2025-02-25 17:14:16,239 - __main__ - INFO - Creating Gradio UI
+2025-02-25 17:14:16,383 - __main__ - INFO - [info] * Running on local URL:  http://0.0.0.0:7860...
+2025-02-25 17:14:16,433 - httpx - INFO - HTTP Request: GET http://localhost:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-02-25 17:14:16,446 - httpx - INFO - HTTP Request: HEAD http://localhost:7860/ "HTTP/1.1 200 OK"
+2025-02-25 17:14:16,446 - __main__ - INFO - [info] 
+To create a public link, set `share=True` in `launch()`....
+2025-02-25 17:14:17,019 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-02-25 17:14:43,635 - __main__ - INFO - Starting research on: What were the economic impacts of the 1929 stock market crash? with model: openai/gpt-4o
+2025-02-25 17:14:43,636 - __main__ - INFO - Getting model: openai/gpt-4o
+2025-02-25 17:14:43,636 - __main__ - INFO - Creating browser
+2025-02-25 17:14:43,638 - __main__ - INFO - Creating tools
+2025-02-25 17:14:43,639 - __main__ - INFO - [info] Starting research on: What were the economic impacts of the 1929 stock market crash?...
+2025-02-25 17:14:43,639 - __main__ - INFO - [info] Using model: openai/gpt-4o...
+2025-02-25 17:14:43,640 - __main__ - INFO - [info] Initializing web browser agent......
+2025-02-25 17:14:43,640 - __main__ - INFO - Creating web browser agent
+2025-02-25 17:14:43,660 - __main__ - INFO - [info] Initializing manager agent......
+2025-02-25 17:14:43,660 - __main__ - INFO - Creating manager agent
+2025-02-25 17:14:43,676 - __main__ - INFO - [info] Starting research process......
+2025-02-25 17:14:43,676 - __main__ - INFO - Running research
+2025-02-25 17:14:43,682 - __main__ - INFO - [info] [38;2;212;183;2m╭─[0m[38;2;212;183;2m──────────────────────────────────────[0m[38;2;212;183;2m ...
+2025-02-25 17:14:44,313 - httpx - INFO - HTTP Request: GET https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json "HTTP/1.1 200 OK"
+2025-02-25 17:14:44,983 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-02-25 17:14:53,580 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 17:14:53,602 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-02-25 17:14:53,609 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-02-25 17:14:59,244 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 17:14:59,256 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-02-25 17:14:59,264 - __main__ - INFO - [code_block] ────────────────────────────────────── [1mInitial plan[0m ──────────────────────────────────────
+H...
+2025-02-25 17:14:59,265 - __main__ - INFO - [info] [38;2;212;183;2m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ [0m[1mStep [0m[1;36m1[0m[38;2;212;1...
+2025-02-25 17:14:59,266 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-02-25 17:15:01,267 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 17:15:01,272 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-02-25 17:15:01,336 - __main__ - INFO - [code_block] [1;3mOutput message of the LLM:[0m [38;2;212;183;2m──────────────────────────────────────────────...
+2025-02-25 17:15:01,338 - __main__ - INFO - [info]  ─ [1mExecuting parsed code:[0m ─────────────────────────────────────────────────────────────── 
+ ...
+2025-02-25 17:15:01,342 - __main__ - INFO - [info] [38;2;212;183;2m╭─[0m[38;2;212;183;2m───────────────────────────────[0m[38;2;212;183;2m [0m[1...
+2025-02-25 17:15:01,343 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-02-25 17:15:07,504 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 17:15:07,530 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-02-25 17:15:07,538 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-02-25 17:15:13,187 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 17:15:13,212 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-02-25 17:15:13,218 - __main__ - INFO - [code_block] ────────────────────────────────────── [1mInitial plan[0m ──────────────────────────────────────
+H...
+2025-02-25 17:15:13,220 - __main__ - INFO - [info] [38;2;212;183;2m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ [0m[1mStep [0m[1;36m1[0m[38;2;212;1...
+2025-02-25 17:15:13,221 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-02-25 17:15:14,338 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 17:15:14,366 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-02-25 17:15:14,370 - __main__ - INFO - [info] ╭────────────────────────────────────────────────────────────────────────────────────────╮
+│ Calling...
+2025-02-25 17:15:15,133 - __main__ - INFO - [info] Observations: ## Search Results
+[1;36m0[0m. |Stock Market Crash of 
+[1;36m1929[0m[1m][0m[1m(...
+2025-02-25 17:15:15,135 - __main__ - INFO - [step_stats] [2m[Step 0: Duration 13.79 seconds| Input tokens: 3,103 | Output tokens: 23][0m
+...
+2025-02-25 17:15:15,135 - __main__ - INFO - [info] [38;2;212;183;2m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ [0m[1mStep [0m[1;36m2[0m[38;2;212;1...
+2025-02-25 17:15:15,136 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-02-25 17:15:17,693 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 17:15:17,703 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-02-25 17:15:17,706 - __main__ - INFO - [info] ╭────────────────────────────────────────────────────────────────────────────────────────╮
+│ Calling...
+2025-02-25 17:15:18,257 - __main__ - INFO - [info] Observations: Address: 
+[4;94mhttps://www.federalreservehistory.org/essays/stock-market-crash-of-19...
+2025-02-25 17:15:18,258 - __main__ - INFO - [step_stats] [2m[Step 1: Duration 3.12 seconds| Input tokens: 7,032 | Output tokens: 209][0m
+...
+2025-02-25 17:15:18,258 - __main__ - INFO - [info] [38;2;212;183;2m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ [0m[1mStep [0m[1;36m3[0m[38;2;212;1...
+2025-02-25 17:15:18,259 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-02-25 17:15:19,221 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 17:15:19,223 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-02-25 17:15:19,224 - __main__ - INFO - [info] ╭────────────────────────────────────────────────────────────────────────────────────────╮
+│ Calling...
+2025-02-25 17:15:19,240 - __main__ - INFO - [info] Observations: Address: 
+[4;94mhttps://www.federalreservehistory.org/essays/stock-market-crash-of-19...
+2025-02-25 17:15:19,240 - __main__ - INFO - [step_stats] [2m[Step 2: Duration 0.98 seconds| Input tokens: 12,404 | Output tokens: 219][0m
+...
+2025-02-25 17:15:19,241 - __main__ - INFO - [info] [38;2;212;183;2m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ [0m[1mStep [0m[1;36m4[0m[38;2;212;1...
+2025-02-25 17:15:19,242 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-02-25 17:15:20,310 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 17:15:20,311 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-02-25 17:15:20,312 - __main__ - INFO - [info] ╭────────────────────────────────────────────────────────────────────────────────────────╮
+│ Calling...
+2025-02-25 17:15:20,325 - __main__ - INFO - [info] Observations: Address: 
+[4;94mhttps://www.federalreservehistory.org/essays/stock-market-crash-of-19...
+2025-02-25 17:15:20,325 - __main__ - INFO - [step_stats] [2m[Step 3: Duration 1.08 seconds| Input tokens: 18,894 | Output tokens: 229][0m
+...
+2025-02-25 17:15:20,326 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-02-25 17:15:33,189 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 17:15:33,196 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-02-25 17:15:33,208 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-02-25 17:15:35,576 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 17:15:35,584 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-02-25 17:15:35,591 - __main__ - INFO - [code_block] ────────────────────────────────────── [1mUpdated plan[0m ──────────────────────────────────────
+I...
+2025-02-25 17:15:35,629 - __main__ - INFO - [info] [38;2;212;183;2m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ [0m[1mStep [0m[1;36m5[0m[38;2;212;1...
+2025-02-25 17:15:35,637 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-02-25 17:15:37,230 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 17:15:37,242 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-02-25 17:15:37,245 - __main__ - INFO - [info] ╭────────────────────────────────────────────────────────────────────────────────────────╮
+│ Calling...
+2025-02-25 17:15:37,916 - __main__ - INFO - [info] Observations: Address: [4;94mhttps://www.britannica.com/event/stock-market-crash-of-1929[0m
+Title:...
+2025-02-25 17:15:37,917 - __main__ - INFO - [step_stats] [2m[Step 4: Duration 17.59 seconds| Input tokens: 27,503 | Output tokens: 306][0m
+...
+2025-02-25 17:15:37,917 - __main__ - INFO - [info] [38;2;212;183;2m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ [0m[1mStep [0m[1;36m6[0m[38;2;212;1...
+2025-02-25 17:15:37,918 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-02-25 17:15:39,591 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 17:15:39,595 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-02-25 17:15:39,598 - __main__ - INFO - [info] ╭────────────────────────────────────────────────────────────────────────────────────────╮
+│ Calling...
+2025-02-25 17:15:39,620 - __main__ - INFO - [info] Observations: Address: [4;94mhttps://www.britannica.com/event/stock-market-crash-of-1929[0m
+Title:...
+2025-02-25 17:15:39,622 - __main__ - INFO - [step_stats] [2m[Step 5: Duration 1.70 seconds| Input tokens: 37,819 | Output tokens: 316][0m
+...
+2025-02-25 17:15:39,622 - __main__ - INFO - [info] [38;2;212;183;2m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ [0m[1mStep [0m[1;36m7[0m[38;2;212;1...
+2025-02-25 17:15:39,623 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-02-25 17:15:40,831 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 17:15:40,834 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-02-25 17:15:40,835 - __main__ - INFO - [info] ╭────────────────────────────────────────────────────────────────────────────────────────╮
+│ Calling...
+2025-02-25 17:15:40,845 - __main__ - INFO - [info] Observations: Address: [4;94mhttps://www.britannica.com/event/stock-market-crash-of-1929[0m
+Title:...
+2025-02-25 17:15:40,845 - __main__ - INFO - [step_stats] [2m[Step 6: Duration 1.22 seconds| Input tokens: 49,965 | Output tokens: 326][0m
+...
+2025-02-25 17:15:40,845 - __main__ - INFO - [info] [38;2;212;183;2m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ [0m[1mStep [0m[1;36m8[0m[38;2;212;1...
+2025-02-25 17:15:40,846 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-02-25 17:15:42,226 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 17:15:42,230 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-02-25 17:15:42,232 - __main__ - INFO - [info] ╭────────────────────────────────────────────────────────────────────────────────────────╮
+│ Calling...
+2025-02-25 17:15:42,251 - __main__ - INFO - [info] Observations: Address: [4;94mhttps://www.britannica.com/event/stock-market-crash-of-1929[0m
+Title:...
+2025-02-25 17:15:42,252 - __main__ - INFO - [step_stats] [2m[Step 7: Duration 1.41 seconds| Input tokens: 63,620 | Output tokens: 336][0m
+...
+2025-02-25 17:15:42,253 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-02-25 17:15:52,819 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 17:15:52,843 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-02-25 17:15:52,851 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-02-25 17:15:55,303 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 17:15:55,317 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-02-25 17:15:55,318 - __main__ - INFO - [code_block] ────────────────────────────────────── [1mUpdated plan[0m ──────────────────────────────────────
+I...
+2025-02-25 17:15:55,319 - __main__ - INFO - [info] [38;2;212;183;2m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ [0m[1mStep [0m[1;36m9[0m[38;2;212;1...
+2025-02-25 17:15:55,320 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-02-25 17:15:59,951 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 17:15:59,965 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-02-25 17:15:59,968 - __main__ - INFO - [info] ╭────────────────────────────────────────────────────────────────────────────────────────╮
+│ Calling...
+2025-02-25 17:15:59,971 - __main__ - INFO - [final_answer] [1;38;2;212;183;2mFinal answer: ### 1. Task outcome (short version):[0m
+[1;38;2;212;183;2mThe 192...
+2025-02-25 17:15:59,971 - __main__ - INFO - [step_stats] [2m[Step 8: Duration 17.72 seconds| Input tokens: 79,605 | Output tokens: 723][0m
+...
+2025-02-25 17:15:59,983 - __main__ - INFO - [code_block] Out: Here is the final answer from your managed agent 'search_agent':
+### 1. Task outcome (short ver...
+2025-02-25 17:15:59,984 - __main__ - INFO - [step_stats] [2m[Step 0: Duration 76.30 seconds| Input tokens: 15,985 | Output tokens: 387][0m
+...
+2025-02-25 17:15:59,984 - __main__ - INFO - [info] [38;2;212;183;2m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ [0m[1mStep [0m[1;36m2[0m[38;2;212;1...
+2025-02-25 17:15:59,985 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-02-25 17:16:06,479 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 17:16:06,489 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-02-25 17:16:06,511 - __main__ - INFO - [info] [1;3mOutput message of the LLM:[0m [38;2;212;183;2m──────────────────────────────────────────────...
+2025-02-25 17:16:06,519 - __main__ - INFO - [code_block] [1;31mError in code parsing:[0m
+[1;31mYour code snippet is invalid, because the regex pattern ```...
+2025-02-25 17:16:06,520 - __main__ - INFO - [step_stats] [2m[Step 1: Duration 6.54 seconds| Input tokens: 24,402 | Output tokens: 771][0m
+...
+2025-02-25 17:16:06,521 - __main__ - INFO - [info] [38;2;212;183;2m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ [0m[1mStep [0m[1;36m3[0m[38;2;212;1...
+2025-02-25 17:16:06,522 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-02-25 17:16:12,498 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 17:16:12,500 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-02-25 17:16:12,510 - __main__ - INFO - [code_block] [1;3mOutput message of the LLM:[0m [38;2;212;183;2m──────────────────────────────────────────────...
+2025-02-25 17:16:12,516 - __main__ - INFO - [info]  ─ [1mExecuting parsed code:[0m ─────────────────────────────────────────────────────────────── 
+ ...
+2025-02-25 17:16:12,519 - __main__ - INFO - [final_answer] [1;38;2;212;183;2mOut - Final answer: [0m
+[1;38;2;212;183;2mThe 1929 stock market crash, also ref...
+2025-02-25 17:16:12,519 - __main__ - INFO - [step_stats] [2m[Step 2: Duration 6.00 seconds| Input tokens: 33,706 | Output tokens: 1,151][0m
+...
+2025-02-25 17:16:12,519 - __main__ - INFO - [success] Research completed!...
+2025-02-25 17:16:12,520 - __main__ - INFO - Research completed
+2025-02-25 17:16:12,520 - __main__ - INFO - [final_answer] Final answer: 
+The 1929 stock market crash, also referred to as the Great Crash, took place over fou...
+2025-02-25 17:16:12,520 - __main__ - INFO - Research process finished
+2025-02-25 17:21:35,277 - huggingface_hub._login - WARNING - Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.
+2025-02-25 17:21:35,279 - __main__ - INFO - Starting Gradio app
+2025-02-25 17:21:35,279 - __main__ - INFO - Creating Gradio UI
+2025-02-25 17:21:36,099 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-02-25 17:23:22,106 - huggingface_hub._login - WARNING - Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.
+2025-02-25 17:23:22,107 - __main__ - INFO - Starting Gradio app
+2025-02-25 17:23:22,107 - __main__ - INFO - Creating Gradio UI
+2025-02-25 17:23:22,270 - __main__ - INFO - [info] * Running on local URL:  http://0.0.0.0:7860...
+2025-02-25 17:23:22,324 - httpx - INFO - HTTP Request: GET http://localhost:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-02-25 17:23:22,338 - httpx - INFO - HTTP Request: HEAD http://localhost:7860/ "HTTP/1.1 200 OK"
+2025-02-25 17:23:22,339 - __main__ - INFO - [info] 
+To create a public link, set `share=True` in `launch()`....
+2025-02-25 17:23:22,882 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-02-25 17:24:14,751 - __main__ - INFO - Starting research on: what's capital of China
+ with model: o3-min
+2025-02-25 17:24:14,752 - __main__ - INFO - Getting model: o3-min
+2025-02-25 17:24:14,752 - __main__ - INFO - Creating browser
+2025-02-25 17:24:14,753 - __main__ - INFO - Creating tools
+2025-02-25 17:24:14,754 - __main__ - INFO - [info] Starting research on: what's capital of China
+...
+2025-02-25 17:24:14,754 - __main__ - INFO - [info] Using model: o3-min...
+2025-02-25 17:24:14,754 - __main__ - INFO - [info] Initializing web browser agent......
+2025-02-25 17:24:14,754 - __main__ - INFO - Creating web browser agent
+2025-02-25 17:24:14,766 - __main__ - INFO - [info] Initializing manager agent......
+2025-02-25 17:24:14,766 - __main__ - INFO - Creating manager agent
+2025-02-25 17:24:14,780 - __main__ - INFO - [info] Starting research process......
+2025-02-25 17:24:14,781 - __main__ - INFO - Running research
+2025-02-25 17:24:14,786 - __main__ - INFO - [info] [38;2;212;183;2m╭─[0m[38;2;212;183;2m────────────────────────────────────────────────[0m[38;2;2...
+2025-02-25 17:24:15,542 - httpx - INFO - HTTP Request: GET https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json "HTTP/1.1 200 OK"
+2025-02-25 17:24:16,204 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-02-25 17:24:20,377 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 17:24:20,388 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-02-25 17:24:20,394 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-02-25 17:24:22,353 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 17:24:22,364 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-02-25 17:24:22,372 - __main__ - INFO - [code_block] ──────────────────────────────────────────────── [1mInitial plan[0m ──────────────────────────────...
+2025-02-25 17:24:22,373 - __main__ - INFO - [info] [38;2;212;183;2m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ [0m[1mStep [0m[1;36m1[0m[...
+2025-02-25 17:24:22,375 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-02-25 17:24:23,962 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 17:24:23,964 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-02-25 17:24:24,018 - __main__ - INFO - [code_block] [1;3mOutput message of the LLM:[0m [38;2;212;183;2m──────────────────────────────────────────────...
+2025-02-25 17:24:24,021 - __main__ - INFO - [info]  ─ [1mExecuting parsed code:[0m ──────────────────────────────────────────────────────────────────...
+2025-02-25 17:24:24,025 - __main__ - INFO - [info] [38;2;212;183;2m╭─[0m[38;2;212;183;2m─────────────────────────────────────────[0m[38;2;212;183;...
+2025-02-25 17:24:24,027 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-02-25 17:24:26,412 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 17:24:26,465 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-02-25 17:24:26,470 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-02-25 17:26:16,999 - huggingface_hub._login - WARNING - Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.
+2025-02-25 17:26:17,001 - __main__ - INFO - Starting Gradio app
+2025-02-25 17:26:17,001 - __main__ - INFO - Creating Gradio UI
+2025-02-25 17:26:17,150 - __main__ - INFO - [info] * Running on local URL:  http://0.0.0.0:7860...
+2025-02-25 17:26:17,201 - httpx - INFO - HTTP Request: GET http://localhost:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-02-25 17:26:17,213 - httpx - INFO - HTTP Request: HEAD http://localhost:7860/ "HTTP/1.1 200 OK"
+2025-02-25 17:26:17,214 - __main__ - INFO - [info] 
+To create a public link, set `share=True` in `launch()`....
+2025-02-25 17:26:17,762 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-02-25 17:26:29,455 - __main__ - INFO - Starting research on: How does photosynthesis work? with model: openai/gpt-4o
+2025-02-25 17:26:29,456 - __main__ - INFO - Getting model: openai/gpt-4o
+2025-02-25 17:26:29,456 - __main__ - INFO - Creating browser
+2025-02-25 17:26:29,457 - __main__ - INFO - Creating tools
+2025-02-25 17:26:29,458 - __main__ - INFO - [info] Starting research on: How does photosynthesis work?...
+2025-02-25 17:26:29,458 - __main__ - INFO - [info] Using model: openai/gpt-4o...
+2025-02-25 17:26:29,458 - __main__ - INFO - [info] Initializing web browser agent......
+2025-02-25 17:26:29,458 - __main__ - INFO - Creating web browser agent
+2025-02-25 17:26:29,475 - __main__ - INFO - [info] Initializing manager agent......
+2025-02-25 17:26:29,475 - __main__ - INFO - Creating manager agent
+2025-02-25 17:26:29,491 - __main__ - INFO - [info] Starting research process......
+2025-02-25 17:26:29,492 - __main__ - INFO - Running research
+2025-02-25 17:26:29,497 - __main__ - INFO - [info] [38;2;212;183;2m╭─[0m[38;2;212;183;2m─────────────────────────────────────────[0m[38;2;212;183;...
+2025-02-25 17:26:30,096 - httpx - INFO - HTTP Request: GET https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json "HTTP/1.1 200 OK"
+2025-02-25 17:26:30,699 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-02-25 17:26:37,387 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 17:26:37,408 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-02-25 17:26:37,415 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-02-25 17:26:42,203 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 17:26:42,207 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-02-25 17:26:42,218 - __main__ - INFO - [code_block] ──────────────────────────────────────── [1mInitial plan[0m ──────────────────────────────────────...
+2025-02-25 17:26:42,219 - __main__ - INFO - [info] [38;2;212;183;2m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ [0m[1mStep [0m[1;36m1[0m[38;2;212...
+2025-02-25 17:26:42,220 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-02-25 17:26:46,140 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 17:26:46,171 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-02-25 17:26:46,249 - __main__ - INFO - [code_block] [1;3mOutput message of the LLM:[0m [38;2;212;183;2m──────────────────────────────────────────────...
+2025-02-25 17:26:46,252 - __main__ - INFO - [info]  ─ [1mExecuting parsed code:[0m ──────────────────────────────────────────────────────────────────...
+2025-02-25 17:26:46,252 - __main__ - INFO - [info] [1mExecution logs:[0m
+
+Photosynthesis is a process used by plants, algae, and certain bacteria to ...
+2025-02-25 17:26:46,252 - __main__ - INFO - [step_stats] [2m[Step 0: Duration 16.75 seconds| Input tokens: 3,336 | Output tokens: 169][0m
+...
+2025-02-25 17:26:46,253 - __main__ - INFO - [info] [38;2;212;183;2m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ [0m[1mStep [0m[1;36m2[0m[38;2;212...
+2025-02-25 17:26:46,253 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-02-25 17:26:47,015 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 17:26:47,018 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-02-25 17:26:47,022 - __main__ - INFO - [info] [1;3mOutput message of the LLM:[0m [38;2;212;183;2m──────────────────────────────────────────────...
+2025-02-25 17:26:47,024 - __main__ - INFO - [info]  ─ [1mExecuting parsed code:[0m ──────────────────────────────────────────────────────────────────...
+2025-02-25 17:26:47,025 - __main__ - INFO - [info] Out: None
+...
+2025-02-25 17:26:47,025 - __main__ - INFO - [step_stats] [2m[Step 1: Duration 0.77 seconds| Input tokens: 7,079 | Output tokens: 169][0m
+...
+2025-02-25 17:26:47,026 - __main__ - INFO - [info] [38;2;212;183;2m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ [0m[1mStep [0m[1;36m3[0m[38;2;212...
+2025-02-25 17:26:47,027 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-02-25 17:26:50,498 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 17:26:50,508 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-02-25 17:26:50,515 - __main__ - INFO - [code_block] [1;3mOutput message of the LLM:[0m [38;2;212;183;2m──────────────────────────────────────────────...
+2025-02-25 17:26:50,520 - __main__ - INFO - [info]  ─ [1mExecuting parsed code:[0m ──────────────────────────────────────────────────────────────────...
+2025-02-25 17:26:50,521 - __main__ - INFO - [info] [1mExecution logs:[0m
+Chemical equation of photosynthesis: 6 CO2 + 6 H2O + light -> C6H12O6 + 6 O2...
+2025-02-25 17:26:50,522 - __main__ - INFO - [step_stats] [2m[Step 2: Duration 3.50 seconds| Input tokens: 10,884 | Output tokens: 320][0m
+...
+2025-02-25 17:26:50,523 - __main__ - INFO - [info] [38;2;212;183;2m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ [0m[1mStep [0m[1;36m4[0m[38;2;212...
+2025-02-25 17:26:50,524 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-02-25 17:26:58,092 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 17:26:58,099 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-02-25 17:26:58,114 - __main__ - INFO - [code_block] [1;3mOutput message of the LLM:[0m [38;2;212;183;2m──────────────────────────────────────────────...
+2025-02-25 17:26:58,121 - __main__ - INFO - [info]  ─ [1mExecuting parsed code:[0m ──────────────────────────────────────────────────────────────────...
+2025-02-25 17:26:58,124 - __main__ - INFO - [info] [1mExecution logs:[0m
+Stages of Photosynthesis:
+ 
+Photosynthesis consists of two main stages: 
+
+1....
+2025-02-25 17:26:58,125 - __main__ - INFO - [step_stats] [2m[Step 3: Duration 7.60 seconds| Input tokens: 15,120 | Output tokens: 731][0m
+...
+2025-02-25 17:26:58,126 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-02-25 17:27:09,140 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 17:27:09,141 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-02-25 17:27:09,143 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
