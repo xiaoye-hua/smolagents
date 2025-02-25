@@ -818,21 +818,7 @@ class TransformersModel(Model):
 
 
 class LiteLLMModel(Model):
-    """This model connects to [LiteLLM](https://www.litellm.ai/) as a gateway to hundreds of LLMs.
-
-    Parameters:
-        model_id (`str`):
-            The model identifier to use on the server (e.g. "gpt-3.5-turbo").
-        api_base (`str`, *optional*):
-            The base URL of the OpenAI-compatible API server.
-        api_key (`str`, *optional*):
-            The API key to use for authentication.
-        custom_role_conversions (`dict[str, str]`, *optional*):
-            Custom role conversion mapping to convert message roles in others.
-            Useful for specific models that do not support specific message roles like "system".
-        **kwargs:
-            Additional keyword arguments to pass to the OpenAI API.
-    """
+    """This model connects to [LiteLLM](https://www.litellm.ai/) as a gateway to hundreds of LLMs."""
 
     def __init__(
         self,
@@ -843,6 +829,28 @@ class LiteLLMModel(Model):
         **kwargs,
     ):
         super().__init__(**kwargs)
+        # Apply model mapping right at initialization
+        if "/" not in model_id:
+            model_mapping = {
+                "o3-min": "openai/gpt-4o-mini",
+                "o3": "openai/gpt-4o",
+                "gpt-4": "openai/gpt-4",
+                "gpt-3.5-turbo": "openai/gpt-3.5-turbo",
+                "claude-3-5-sonnet": "anthropic/claude-3-5-sonnet",
+                "claude-3-opus": "anthropic/claude-3-opus",
+                "claude-3-haiku": "anthropic/claude-3-haiku",
+                "claude-3-sonnet": "anthropic/claude-3-sonnet",
+                "claude-2": "anthropic/claude-2",
+            }
+            
+            if model_id in model_mapping:
+                model_id = model_mapping[model_id]
+                print(f"Mapped model_id '{model_id}' to full provider format")
+            else:
+                # Default to OpenAI if no provider is specified and not in mapping
+                model_id = f"openai/{model_id}"
+                print(f"No provider specified for model '{model_id}'. Using '{model_id}'")
+        
         self.model_id = model_id
         self.api_base = api_base
         self.api_key = api_key
@@ -850,7 +858,7 @@ class LiteLLMModel(Model):
         self.flatten_messages_as_text = (
             kwargs.get("flatten_messages_as_text")
             if "flatten_messages_as_text" in kwargs
-            else self.model_id.startswith(("ollama", "groq", "cerebras"))
+            else model_id.split("/")[-1].startswith(("ollama", "groq", "cerebras"))
         )
 
     def __call__(
@@ -868,6 +876,9 @@ class LiteLLMModel(Model):
                 "Please install 'litellm' extra to use LiteLLMModel: `pip install 'smolagents[litellm]'`"
             )
 
+        # Print debug info to console
+        print(f"Using model: {self.model_id}")
+
         completion_kwargs = self._prepare_completion_kwargs(
             messages=messages,
             stop_sequences=stop_sequences,
@@ -881,6 +892,9 @@ class LiteLLMModel(Model):
             custom_role_conversions=self.custom_role_conversions,
             **kwargs,
         )
+
+        # Print the actual model being used in completion_kwargs
+        print(f"Model in completion_kwargs: {completion_kwargs.get('model')}")
 
         response = litellm.completion(**completion_kwargs)
 

@@ -62,7 +62,7 @@ def parse_args():
     parser.add_argument(
         "question", type=str, help="for example: 'How many studio albums did Mercedes Sosa release before 2007?'"
     )
-    parser.add_argument("--model-id", type=str, default="o1")
+    parser.add_argument("--model-id", type=str, default="o3-min")
     return parser.parse_args()
 
 
